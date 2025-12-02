@@ -288,8 +288,8 @@ Quarto is my fav for writing/analysis.
 :::
 :::
 
-[![](https://zenodo.org/badge/770919433.svg)](https://zenodo.org/doi/10.5281/zenodo.10809738)
-![](images/qrcode.svg){.absolute bottom=25 left=250 width="300" height="300"}
+[![DOI](https://zenodo.org/badge/1108566100.svg)](https://doi.org/10.5281/zenodo.17792781)
 
+![](images/qrcode.svg){.absolute bottom=25 left=250 width="300" height="300"}
 
 ## References

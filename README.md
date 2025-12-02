@@ -1,6 +1,6 @@
 # Reproducibility talk - UKDRI Connectome 2025
 
-[![DOI](https://zenodo.org/badge/770919433.svg)](https://zenodo.org/doi/10.5281/zenodo.10809738)
+[![DOI](https://zenodo.org/badge/1108566100.svg)](https://doi.org/10.5281/zenodo.17792781)
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
 Repo of the resources for my talk on reproducibility at the UKDRI Connectome 2025.

@@ -1,0 +1,30 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Reproducibility - A *very* brief overview
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - orcid: 'https://orcid.org/0000-0001-6075-3619'
+    affiliation: Cardiff University
+    email: bernardo-harringtong@cardiff.ac.uk
+    given-names: Gabriel Mateus
+    family-names: Bernardo Harrington
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.17792782
+repository-code: >-
+  https://github.com/H-Mateus/presentations_dri-connectome-reproducibility_2025-12-08
+url: >-
+  https://h-mateus.github.io/presentations_dri-connectome-reproducibility_2025-12-08/2025-12-01_connectome_reproducibilty.html
+abstract: >-
+  A Slide deck and associated dependencies for a talk on
+  reproducibility at the UKDRI Connectome 2025 
+keywords:
+  - Slide deck
+  - Quarto
+  - Reproducibilty
+license: CC-BY-SA-4.0
