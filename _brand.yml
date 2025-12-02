@@ -1,0 +1,108 @@
+# _brand.yml
+# UK Dementia Research Institute (UK DRI)
+# Draft based on UK DRI Brand Guide (Version 2.0, Sep 2025)
+
+meta:
+  name:
+    short: UK DRI
+    full: UK Dementia Research Institute
+  link:
+    home: https://ukdri.ac.uk
+    twitter: https://twitter.com/ukdri
+    linkedin: https://www.linkedin.com/company/uk-dementia-research-institute
+
+# logo:
+#   images:
+#     # Drop the official logo files into ./logos/
+#     full-colour: images/logo-small.svg   # White background version recommended
+#     white: images/ukdri-logo-white.png             # For dark backgrounds
+#     mono: images/ukdri-logo-mono.png               # Black or dark blue mono
+#     # founders: logos/ukdri-founding-funders.png    # Standard founders lock-up (87–104mm equivalent)
+#     # founders-large: logos/ukdri-founding-funders-large.png
+#   small: full-colour
+#   medium:
+#     light: full-colour
+#     dark: white
+#   large: full-colour
+
+color:
+  palette:
+    white: "#FFFFFF"
+    black: "#000000"
+
+    ukdri-dark-blue:   "#00326e"  # ★★ OK for text
+    ukdri-light-grey:  "#c4d1d9"
+    ukdri-dark-grey:   "#415767"  # ★★ OK for text
+    ukdri-sky-blue:    "#0ac8ff"
+    ukdri-petrol-blue: "#007faf"
+    ukdri-bright-blue: "#4682ff"
+    ukdri-cobalt:      "#325ad7"
+    ukdri-violet:      "#461e8c"
+    ukdri-fuchsia:     "#e1235c"
+    ukdri-ruby:        "#aa0050"
+    ukdri-yellow:      "#ffed00"
+
+  # Quarto semantic colours (optional; kept minimal)
+  foreground: ukdri-dark-grey
+  background: white
+  primary: ukdri-dark-blue
+  secondary: ukdri-light-grey
+  info: ukdri-sky-blue
+  success: ukdri-petrol-blue
+  warning: ukdri-yellow
+  danger: ukdri-ruby
+
+typography:
+  fonts:
+    # Proprietary: FS Untitled Regular 450
+    - family: FS Untitled
+      source: file
+      # Replace with downloaded font files if permitted
+      files:
+        - path: fonts/FSUntitled-Regular450.ttf
+          weight: 400
+          style: normal
+      # Recommended free substitute for headings
+      # Google: "Inter Tight" or "Outfit"
+    # Proprietary: Helvetica Neue LT Std
+    - family: Helvetica Neue
+      source: file
+      files:
+        - path: fonts/HelveticaNeueLTStd-45Light.otf
+          weight: 300
+        - path: fonts/HelveticaNeueLTStd-55Roman.otf
+          weight: 400
+        - path: fonts/HelveticaNeueLTStd-65Medium.otf
+          weight: 500
+        - path: fonts/HelveticaNeueLTStd-75Bold.otf
+          weight: 700
+      # Suggested substitute if unavailable:
+      # Use system "Helvetica", fallback to "Arial" or "Noto Sans"
+    # Monospace substitute
+    - family: Fira Code
+      source: bunny
+      weight: [400, 500]
+      style: [normal]
+
+  base:
+    family: Helvetica Neue     # Falls back to Helvetica / Arial
+    weight: 300
+    size: 24px
+    line-height: 1.5
+
+  headings:
+    family: FS Untitled        # Falls back to Inter Tight / Outfit
+    weight: 400
+    line-height: 1.2
+    color: ukdri-dark-blue
+
+  monospace:
+    family: Fira Code
+    weight: 400
+    size: 0.9em
+
+  link:
+    weight: 600
+    color: ukdri-bright-blue
+    decoration: underline
+
