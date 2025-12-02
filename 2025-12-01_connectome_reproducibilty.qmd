@@ -1,6 +1,6 @@
 ---
 title: "The Replication Situation"
-subtitle: "A *very* brief overview of where we're at"
+subtitle: "A *very* brief overview of where<br>we're at"
 author: '<a href="https://mateusharrington.com/" style="color: #fa2d6e">Gabriel Mateus Bernardo Harrington</a>'
 date: '2025-12-08'
 date-modified: '`r Sys.Date()`'
@@ -12,9 +12,9 @@ format:
     multiplex: true
     footer: |
         Made with the [UKDRI Quarto template](https://github.com/H-Mateus/quarto-ukdri-theme) by [GMBH](https://mateusharrington.com/).
-        Code available on GitHub [here](https://github.com/H-Mateus/presentations_dri-ecr-vascular_reproducibility_2024-03-14).
+        Code available on GitHub [here](https://github.com/H-Mateus/presentations_dri-connectome-reproducibility_2025-12-08).
         Licensed under [CC-BY-SA](http://creativecommons.org/licenses/by-sa/4.0/)
-# embed-resources: true
+embed-resources: true
 bibliography: references.bib
 csl: /Users/mateusbernardo-harrington/Documents/citation_styles/nature.csl
 ---
@@ -51,12 +51,12 @@ dri_hexcolours <- c(
 ```{r}
 #| include: false
 code <- qrcode::qr_code(
-  "https://h-mateus.github.io/presentations_dri-ecr-vascular_reproducibility_2024-03-14/2024-02-26_ecr-vascular-meeting_reproducibility.html"
+  "https://h-mateus.github.io/presentations_dri-connectome-reproducibility_2025-12-08/2025-12-01_connectome_reproducibilty.html"
 )
 qrcode::generate_svg(code, filename = here::here("images/qrcode.svg"))
 ```
 
--   Slides are here: <https://h-mateus.github.io/presentations_dri-ecr-vascular_reproducibility_2024-03-14/2024-02-26_ecr-vascular-meeting_reproducibility.html>
+-   Slides are here: <https://h-mateus.github.io/presentations_dri-connectome-reproducibility_2025-12-08/2025-12-01_connectome_reproducibilty.html>
 
 ![](images/qrcode.svg){fig-align="center"}
 
@@ -281,7 +281,7 @@ Quarto is my fav for writing/analysis.
 ::: {.column width="70%"}
 -   Please don't let the perfect be the enemy of the good!
 -   Anything you can do to get closer to more transparent and reproducible research is a huge win as far as I'm concerned
--   Here's a link to the slides again: <https://h-mateus.github.io/presentations_dri-ecr-vascular_reproducibility_2024-03-14/2024-02-26_ecr-vascular-meeting_reproducibility.html>
+-   Here's a link to the slides again: <https://h-mateus.github.io/presentations_dri-connectome-reproducibility_2025-12-08/2025-12-01_connectome_reproducibilty.html>
 :::
 
 ::: {.column width="30%"}
