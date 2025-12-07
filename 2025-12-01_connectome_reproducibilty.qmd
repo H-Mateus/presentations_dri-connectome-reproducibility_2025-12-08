@@ -26,6 +26,9 @@ library(librarian)
 pkg <- c("tidyverse", "gt", "leaflet", "DT")
 shelf(pkg)
 rm(pkg)
+
+# cut down on negative slides to save time
+# more time on positive slides - mention good jounrals (not-for-profit like elife/science), explain diamond open access and graph
 ```
 
 ```{r}
@@ -46,8 +49,6 @@ dri_hexcolours <- c(
 )
 ```
 
-## Follow the slides online
-
 ```{r}
 #| include: false
 code <- qrcode::qr_code(
@@ -55,10 +56,6 @@ code <- qrcode::qr_code(
 )
 qrcode::generate_svg(code, filename = here::here("images/qrcode.svg"))
 ```
-
--   Slides are here: <https://h-mateus.github.io/presentations_dri-connectome-reproducibility_2025-12-08/2025-12-01_connectome_reproducibilty.html>
-
-![](images/qrcode.svg){fig-align="center"}
 
 ## Academic journals suck
 
@@ -184,9 +181,9 @@ qrcode::generate_svg(code, filename = here::here("images/qrcode.svg"))
 ::: {.column width="60%"}
 1.  Come up with neat project idea - create repository on DRI GitHub (can be private)
     -   Use this to organise the project (add collaborators, make Gantt charts, etc.)
-2.  pre-register study (can be embargoed) and write up registered report
+2.  Pre-register study (can be embargoed) and write up registered report
     -   Can do this on [OSF](https://osf.io/)
-3.  publish registered report \> get valuable feedback from wise and courteous reviewers (let me dream pls)
+3.  Publish registered report \> get valuable feedback from wise and courteous reviewers (let me dream pls)
     -   In a diamond open access journal ideally!
 :::
 
@@ -259,7 +256,7 @@ Don't stress over R vs Python, it doesn't matter.
 Quarto is my fav for writing/analysis.
 :::
 
-## Data sharing policy {background-image="images/data_sharing.png" background-size="contain"}
+## {background-image="images/data_sharing.png" background-size="contain"}
 
 ## Training coming somewhere near you soon!
 
@@ -275,21 +272,33 @@ Quarto is my fav for writing/analysis.
 :::
 :::
 
+::: columns
+::: {.column width="60%"}
+- Suvery on knowledge/opions around FAIR data
+- Come see us at the ECR Committee Poster in the skills exchange section
+:::
+
+::: {.column width="40%"}
+![](images/survey-qr-code.png)
+:::
+:::
+
+
 ## Thanks for listening {.final-slide background-image="_extensions/H-Mateus/ukdri/final_slide.png"}
 
 ::: columns
-::: {.column width="70%"}
+::: {.column width="90%"}
 -   Please don't let the perfect be the enemy of the good!
 -   Anything you can do to get closer to more transparent and reproducible research is a huge win as far as I'm concerned
--   Here's a link to the slides again: <https://h-mateus.github.io/presentations_dri-connectome-reproducibility_2025-12-08/2025-12-01_connectome_reproducibilty.html>
+-   Here's a link to the slides: <https://h-mateus.github.io/presentations_dri-connectome-reproducibility_2025-12-08/2025-12-01_connectome_reproducibilty.html>
 :::
 
 ::: {.column width="30%"}
 :::
 :::
 
-[![DOI](https://zenodo.org/badge/1108566100.svg)](https://doi.org/10.5281/zenodo.17792781)
+[![](https://zenodo.org/badge/1108566100.svg)](https://doi.org/10.5281/zenodo.17792781)
 
-![](images/qrcode.svg){.absolute bottom=25 left=250 width="300" height="300"}
+![](images/qrcode.svg){.absolute bottom=15 left=250 width="300" height="300"}
 
 ## References
